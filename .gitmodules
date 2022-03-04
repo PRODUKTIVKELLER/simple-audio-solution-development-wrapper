@@ -1,3 +1,3 @@
-[submodule "simple-audio-solution"]
+[submodule "Packages/com.produktivkeller.simple-audio-solution"]
 	path = Packages/com.produktivkeller.simple-audio-solution
-	url = https://github.com/PRODUKTIVKELLER/simple-audio-solution
+	url = git@github.com:PRODUKTIVKELLER/simple-audio-solution.git

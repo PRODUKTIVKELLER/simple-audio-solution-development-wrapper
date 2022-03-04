@@ -1,3 +1,9 @@
 {
-    "dependencies": []
+    "dependencies": [
+        {
+            "name": "com.produktivkeller.simple-coroutines",
+            "hash": "50b10b8d7ebfa11d28d22533e81f12f02ece7a05",
+            "url": "https://github.com/PRODUKTIVKELLER/simple-coroutines.git"
+        }
+    ]
 }
