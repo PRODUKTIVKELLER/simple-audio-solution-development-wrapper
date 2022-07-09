@@ -44,26 +44,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  delay: {x: 0, y: 0}
   key: 
-  minVolume: 1
-  maxVolume: 1
-  minPitch: 1
-  maxPitch: 1
   spatialize: 0
   spatialBlend: 0
   maxInstances: 1
   stealingMode: 1
   isLooping: 0
-  reflect: 0
   priority: 128
+  audioMixerGroup: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: 0b172a190e7fc9c48b7e1eba80bfb001, type: 3}
   multiSoundEventPlaymode: 0
-  audioMixerGroup: {fileID: 0}
+  ignoreFirstDelay: 0
   dopplerLevel: 0
   spread: 0
-  minDistance: 0
-  maxDistance: 0
+  distance: {x: 1, y: 500}
   volumeRolloff: 0
   rolloffCurve:
     serializedVersion: 2
@@ -115,26 +113,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
-  minVolume: 1
-  maxVolume: 1
-  minPitch: 1
-  maxPitch: 1
+  volume: {x: 0.3, y: 0.3}
+  pitch: {x: 0.8, y: 1.2}
+  delay: {x: 0, y: 0}
+  key: /SFX/Simple Audio Solution/Stealing Mode/None
   spatialize: 0
-  spatialBlend: 0
+  spatialBlend: 0.078
   maxInstances: 1
   stealingMode: 2
   isLooping: 0
-  reflect: 0
   priority: 128
+  audioMixerGroup: {fileID: -7684911512530993926, guid: 221bdae8e69b1524e869e9b80f162e62,
+    type: 2}
   audioClips:
   - {fileID: 8300000, guid: 0b172a190e7fc9c48b7e1eba80bfb001, type: 3}
   multiSoundEventPlaymode: 0
-  audioMixerGroup: {fileID: 0}
-  dopplerLevel: 0
-  spread: 0
-  minDistance: 0
-  maxDistance: 0
+  ignoreFirstDelay: 0
+  dopplerLevel: 1
+  spread: 35
+  distance: {x: 1, y: 500}
   volumeRolloff: 0
   rolloffCurve:
     serializedVersion: 2
@@ -186,26 +183,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  delay: {x: 0, y: 0}
   key: 
-  minVolume: 1
-  maxVolume: 1
-  minPitch: 1
-  maxPitch: 1
   spatialize: 0
   spatialBlend: 0
   maxInstances: 1
   stealingMode: 0
   isLooping: 0
-  reflect: 0
   priority: 128
+  audioMixerGroup: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: 0b172a190e7fc9c48b7e1eba80bfb001, type: 3}
   multiSoundEventPlaymode: 0
-  audioMixerGroup: {fileID: 0}
+  ignoreFirstDelay: 0
   dopplerLevel: 0
   spread: 0
-  minDistance: 0
-  maxDistance: 0
+  distance: {x: 1, y: 500}
   volumeRolloff: 0
   rolloffCurve:
     serializedVersion: 2
@@ -257,26 +252,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  delay: {x: 0, y: 0}
   key: 
-  minVolume: 1
-  maxVolume: 1
-  minPitch: 1
-  maxPitch: 1
   spatialize: 0
   spatialBlend: 1
   maxInstances: 1000
   stealingMode: 0
   isLooping: 0
-  reflect: 0
   priority: 128
+  audioMixerGroup: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: a34bbaba49ab89642bf92bba4ef09242, type: 3}
   multiSoundEventPlaymode: 0
-  audioMixerGroup: {fileID: 0}
+  ignoreFirstDelay: 0
   dopplerLevel: 0.26
   spread: 0.7
-  minDistance: 97.9
-  maxDistance: 360.47
+  distance: {x: 1, y: 500}
   volumeRolloff: 1
   rolloffCurve:
     serializedVersion: 2
@@ -445,26 +438,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  delay: {x: 0, y: 0}
   key: 
-  minVolume: 1
-  maxVolume: 1
-  minPitch: 1
-  maxPitch: 1
   spatialize: 0
   spatialBlend: 0
   maxInstances: 1000
   stealingMode: 0
   isLooping: 0
-  reflect: 0
   priority: 128
+  audioMixerGroup: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: d6dfb6acca053d44fa7627ce4707f6d7, type: 3}
   multiSoundEventPlaymode: 0
-  audioMixerGroup: {fileID: 0}
+  ignoreFirstDelay: 0
   dopplerLevel: 0
   spread: 0
-  minDistance: 0
-  maxDistance: 0
+  distance: {x: 1, y: 500}
   volumeRolloff: 0
   rolloffCurve:
     serializedVersion: 2
