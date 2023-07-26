@@ -47,6 +47,7 @@ MonoBehaviour:
   volume: {x: 1, y: 1}
   pitch: {x: 1, y: 1}
   delay: {x: 0, y: 0}
+  stereoPan: 0
   key: 
   spatialize: 0
   spatialBlend: 0
@@ -116,6 +117,7 @@ MonoBehaviour:
   volume: {x: 0.3, y: 0.3}
   pitch: {x: 0.8, y: 1.2}
   delay: {x: 0, y: 0}
+  stereoPan: 0
   key: /SFX/Simple Audio Solution/Stealing Mode/None
   spatialize: 0
   spatialBlend: 0.078
@@ -186,6 +188,7 @@ MonoBehaviour:
   volume: {x: 1, y: 1}
   pitch: {x: 1, y: 1}
   delay: {x: 0, y: 0}
+  stereoPan: 0
   key: 
   spatialize: 0
   spatialBlend: 0
@@ -255,6 +258,7 @@ MonoBehaviour:
   volume: {x: 1, y: 1}
   pitch: {x: 1, y: 1}
   delay: {x: 0, y: 0}
+  stereoPan: 0
   key: 
   spatialize: 0
   spatialBlend: 1
@@ -329,6 +333,77 @@ Transform:
   m_Father: {fileID: 6069717117196023869}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2900409514637975329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2731671916541692767}
+  - component: {fileID: 4472886034373468946}
+  m_Layer: 0
+  m_Name: Cross Fade Sound Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2731671916541692767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900409514637975329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8395538055825047102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4472886034373468946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900409514637975329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174b7e2422daff24cbd94270afb152c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  delay: {x: 0, y: 0}
+  stereoPan: 0
+  key: 
+  spatialize: 0
+  spatialBlend: 0
+  maxInstances: 1000
+  stealingMode: 0
+  isLooping: 1
+  priority: 128
+  audioMixerGroup: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: b95a16ef0499d1143bd3b503c2446753, type: 3}
+  - {fileID: 8300000, guid: 34fcfbab24ba3e941b61b13aa455dc6c, type: 3}
+  multiSoundEventPlaymode: 0
+  ignoreFirstDelay: 0
+  dopplerLevel: 0
+  spread: 0
+  distance: {x: 1, y: 500}
+  volumeRolloff: 0
+  rolloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6069717116428544004
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +516,7 @@ MonoBehaviour:
   volume: {x: 1, y: 1}
   pitch: {x: 1, y: 1}
   delay: {x: 0, y: 0}
+  stereoPan: 0
   key: 
   spatialize: 0
   spatialBlend: 0
@@ -651,7 +727,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2731671916541692767}
   m_Father: {fileID: 8395538055181602005}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
